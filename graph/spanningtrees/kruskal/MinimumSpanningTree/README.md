@@ -1,0 +1,1 @@
+- The subset of edges that connect all vertices in the graph, and has minimum total weight.

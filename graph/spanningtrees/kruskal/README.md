@@ -9,4 +9,8 @@
   with the help of union find data structure
   
  
-[REF](https://www.youtube.com/watch?v=JZBQLXgSGfs) 
+[REF 1](https://www.youtube.com/watch?v=JZBQLXgSGfs) 
+
+[REF 2 Disjointset](https://www.youtube.com/watch?v=wU6udHRIkcc&ab_channel=AbdulBari)
+
+[REF 3](https://github.com/TheAlgorithms/Python/blob/master/graphs/minimum_spanning_tree_kruskal2.py)

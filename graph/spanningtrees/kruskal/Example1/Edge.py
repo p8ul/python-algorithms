@@ -5,7 +5,6 @@ class Edge(object):
         self.start_vertex = start_vertex
         self.target_vertex = target_vertex
 
-
     def __cmp__(self, other):
         return self.cmp(self.weight, other.weight)
 

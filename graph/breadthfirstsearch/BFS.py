@@ -40,7 +40,7 @@ while not queue.empty():
             level[v] = level[u] + 1
             queue.put(v)
 
-# print(bfs_traversal_output)
+print('traversal', bfs_traversal_output)
 
 
 # shortest distance of all nodes from source node

@@ -44,6 +44,43 @@ def insertNodeAtPosition(head, data, position):
     return llist.head
 
 
+def delete_node(head, position):
+    llist = SinglyLinkedList()
+    counter = 0
+    node = head
+    while node:
+        if counter != position:
+            llist.insert_node(node.data)
+        node = node.next
+        counter += 1
+    return llist.head
+
+
+def reverse_print(node):
+    llist = []
+
+    while node:
+        llist.append(node.data)
+        node = node.next
+    llist.reverse()
+    for i in llist:
+        print(i)
+
+
+def reverse(node):
+    arr = []
+
+    while node:
+        arr.append(node.data)
+        node = node.next
+    arr.reverse()
+    llist = SinglyLinkedList()
+
+    for i in arr:
+        llist.insert_node(i)
+    return llist.head
+
+
 linked_list = SinglyLinkedList()
 
 nodes = [16, 13, 7]
